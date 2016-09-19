@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 
-<f:view
-        xmlns="http://www.w3.org/1999/xhtml"
+<f:view xmlns="http://www.w3.org/1999/xhtml"
         xmlns:f="http://java.sun.com/jsf/core"
-        xmlns:h="http://java.sun.com/jsf/html"
->
+        xmlns:h="http://java.sun.com/jsf/html">
+
     <h:body>
         <h:panelGroup id="panelId" layout="block">
-            <h:outputText value="hello world"/>
+            <h:outputText value="#{helloBean.hello}"/>
         </h:panelGroup>
     </h:body>
+
 </f:view>
