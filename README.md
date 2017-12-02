@@ -1,4 +1,4 @@
-#Spring Boot JSF
+# Spring Boot JSF
 ### Spring Boot base for JSF projects
 There i have tried to explain (and understand to myself) how to run Spring Boot based applications with JSF. It is just my point of view, of course i can make (and i think i have made) mistakes. Any advices are welcome.
 
@@ -8,7 +8,7 @@ To build and run the app you only need to run the [Application.java](https://git
 
 ---
 
-####View
+#### View
 
 To visualize the hello world access the url: `localhost:8080/views/index.xhtml` in your favourite browser.
 
